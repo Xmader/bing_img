@@ -7,7 +7,7 @@ import requests
 import win32con
 import win32api
 import win32gui
-import bing_img_main
+import get_img_url
 
 
 def set_wallpaper(img_path):
@@ -24,7 +24,7 @@ def set_wallpaper(img_path):
 
 
 def auto_set_wallpaper():
-    img_url = bing_img_main.get_url()
+    img_url = get_img_url.get_url()
     file_name = img_url.split("/")[-1]
 
     r = requests.get(img_url)

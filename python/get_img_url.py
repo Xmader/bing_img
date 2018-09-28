@@ -1,5 +1,5 @@
 # -*- coding: utf-8 -*-
-# 下载bing首页图片
+# 获取bing首页图片的地址
 import requests
 
 
