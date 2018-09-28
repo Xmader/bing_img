@@ -10,7 +10,7 @@ import win32gui
 import bing_img_main
 
 
-def set_wallpaper(bmp_path):
+def set_wallpaper(img_path):
     # 打开指定注册表路径
     reg_key = win32api.RegOpenKeyEx(
         win32con.HKEY_CURRENT_USER, "Control Panel\\Desktop", 0, win32con.KEY_SET_VALUE)
@@ -20,7 +20,7 @@ def set_wallpaper(bmp_path):
     win32api.RegSetValueEx(reg_key, "TileWallpaper", 0, win32con.REG_SZ, "0")
     # 刷新桌面
     win32gui.SystemParametersInfo(
-        win32con.SPI_SETDESKWALLPAPER, bmp_path, win32con.SPIF_SENDWININICHANGE)
+        win32con.SPI_SETDESKWALLPAPER, img_path, win32con.SPIF_SENDWININICHANGE)
 
 
 def auto_set_wallpaper():
