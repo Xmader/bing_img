@@ -15,6 +15,7 @@
   "homepage": "https://github.com/Xmader/bing_img#readme",
   "dependencies": {
     "ffi": "^2.2.0",
-    "node-fetch": "^2.2.0"
+    "node-fetch": "^2.2.0",
+    "node-reg": "github:Xmader/node-reg"
   }
 }
