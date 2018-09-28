@@ -1,0 +1,20 @@
+{
+  "name": "bing_img",
+  "version": "1.0.0",
+  "description": "自动将bing首页图片作为壁纸",
+  "main": "main.js",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Xmader/bing_img.git"
+  },
+  "author": "Xmader",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/Xmader/bing_img/issues"
+  },
+  "homepage": "https://github.com/Xmader/bing_img#readme",
+  "dependencies": {
+    "ffi": "^2.2.0",
+    "node-fetch": "^2.2.0"
+  }
+}
