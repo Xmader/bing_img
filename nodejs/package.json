@@ -13,6 +13,9 @@
     "url": "https://github.com/Xmader/bing_img/issues"
   },
   "homepage": "https://github.com/Xmader/bing_img#readme",
+  "scripts": {
+    "start": "node ./main.js"
+  },
   "dependencies": {
     "ffi": "^2.2.0",
     "node-fetch": "^2.2.0",
